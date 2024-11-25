@@ -1,8 +1,10 @@
+# Description: Generate a QR code for connecting to a WiFi network using the qrcode library
+
 import qrcode
 
 # WiFi credentials
-ssid = "Your_SSID"
-password = "Your_Password"
+ssid = "MyWiFiNetwork"
+password = "MyWiFiPassword"
 security_type = "WPA"  # Can be 'WPA', 'WEP', or 'nopass' for no password
 
 # Generate WiFi QR code
